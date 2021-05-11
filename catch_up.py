@@ -5,8 +5,7 @@ import to_SQL
     Rename this to catch_up.py
 """
 
-# for name in os.listdir("C:\\Users\\jonathanp\\Documents\\Bidvest CSV-SQL\\Work\\CSV files"):
-path = "C:\\Users\\jonathanp\\Documents\\Bidvest CSV-SQL\\Work\\CSV files"
+path = ""
 for name in os.listdir(path):
     if name.endswith(".csv"):
         print(name)

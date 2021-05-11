@@ -3,10 +3,10 @@ import pysftp
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 
-srvhost = "102.37.101.111"
-svruser = "azureuser"
-svrkey = "C:\\Users\\jonathanp\\Documents\\Bidvest CSV-SQL\\SSH-keys\\GyroSFTP_key_0426.pem"
-lpath = "C:\\Users\\jonathanp\\Documents\\Bidvest CSV-SQL\\Work\\Sandbox\\"
+srvhost = ""
+svruser = ""
+svrkey = ""
+lpath = ""
 
 def fetch_file(filename)
 filename = filename+".csv"
